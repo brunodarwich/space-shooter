@@ -9,53 +9,53 @@ export class BootScene extends Phaser.Scene {
     this.createLoadingUI();
 
     // Carregamento de Sprites e Imagens Anime de Neo-Tokyo
-    this.load.image('menu_hero_bg', '/assets/backgrounds/menu_hero_bg.jpg');
-    this.load.image('bg_skyline', '/assets/backgrounds/bg_skyline.png');
-    this.load.image('bg_highway_mid', '/assets/backgrounds/bg_highway_mid.png');
+    this.load.image('menu_hero_bg', 'assets/backgrounds/menu_hero_bg.jpg');
+    this.load.image('bg_skyline', 'assets/backgrounds/bg_skyline.png');
+    this.load.image('bg_highway_mid', 'assets/backgrounds/bg_highway_mid.png');
 
     // Objetos e Destroços Urbanos da Rodovia (Inspirados no anime Akira)
-    this.load.image('prop_drum_hazard', '/assets/sprites/prop_drum_hazard.png');
-    this.load.image('prop_cone_neon', '/assets/sprites/prop_cone_neon.png');
-    this.load.image('prop_barrier_jersey', '/assets/sprites/prop_barrier_jersey.png');
-    this.load.image('prop_wreck_bike', '/assets/sprites/prop_wreck_bike.png');
-    this.load.image('prop_overpass_gantry', '/assets/sprites/prop_overpass_gantry.png');
+    this.load.image('prop_drum_hazard', 'assets/sprites/prop_drum_hazard.png');
+    this.load.image('prop_cone_neon', 'assets/sprites/prop_cone_neon.png');
+    this.load.image('prop_barrier_jersey', 'assets/sprites/prop_barrier_jersey.png');
+    this.load.image('prop_wreck_bike', 'assets/sprites/prop_wreck_bike.png');
+    this.load.image('prop_overpass_gantry', 'assets/sprites/prop_overpass_gantry.png');
 
-    this.load.image('player_bike_red', '/assets/sprites/player_bike_red.png');
-    this.load.image('player_bike_gold', '/assets/sprites/player_bike_gold.png');
-    this.load.spritesheet('player_bike_red_sheet', '/assets/sprites/player_bike_red_sheet.png', { frameWidth: 64, frameHeight: 96 });
-    this.load.spritesheet('player_bike_gold_sheet', '/assets/sprites/player_bike_gold_sheet.png', { frameWidth: 64, frameHeight: 96 });
-    this.load.image('enemy_biker', '/assets/sprites/enemy_biker.png');
-    this.load.image('enemy_interceptor', '/assets/sprites/enemy_interceptor.png');
-    this.load.image('enemy_heli', '/assets/sprites/enemy_heli.png');
-    this.load.image('boss_clown', '/assets/sprites/boss_clown.png');
-    this.load.image('boss_tank', '/assets/sprites/boss_tank.png');
-    this.load.image('boss_tetsuo', '/assets/sprites/boss_tetsuo.png');
+    this.load.image('player_bike_red', 'assets/sprites/player_bike_red.png');
+    this.load.image('player_bike_gold', 'assets/sprites/player_bike_gold.png');
+    this.load.spritesheet('player_bike_red_sheet', 'assets/sprites/player_bike_red_sheet.png', { frameWidth: 64, frameHeight: 96 });
+    this.load.spritesheet('player_bike_gold_sheet', 'assets/sprites/player_bike_gold_sheet.png', { frameWidth: 64, frameHeight: 96 });
+    this.load.image('enemy_biker', 'assets/sprites/enemy_biker.png');
+    this.load.image('enemy_interceptor', 'assets/sprites/enemy_interceptor.png');
+    this.load.image('enemy_heli', 'assets/sprites/enemy_heli.png');
+    this.load.image('boss_clown', 'assets/sprites/boss_clown.png');
+    this.load.image('boss_tank', 'assets/sprites/boss_tank.png');
+    this.load.image('boss_tetsuo', 'assets/sprites/boss_tetsuo.png');
 
     // Spritesheets Animados de Inimigos e Chefes Neo-Tokyo
-    this.load.spritesheet('enemy_biker_sheet', '/assets/sprites/enemy_biker_sheet.png', { frameWidth: 48, frameHeight: 64 });
-    this.load.spritesheet('enemy_interceptor_sheet', '/assets/sprites/enemy_interceptor_sheet.png', { frameWidth: 54, frameHeight: 64 });
-    this.load.spritesheet('enemy_heli_sheet', '/assets/sprites/enemy_heli_sheet.png', { frameWidth: 64, frameHeight: 64 });
-    this.load.spritesheet('boss_clown_sheet', '/assets/sprites/boss_clown_sheet.png', { frameWidth: 144, frameHeight: 160 });
-    this.load.spritesheet('boss_tank_sheet', '/assets/sprites/boss_tank_sheet.png', { frameWidth: 150, frameHeight: 160 });
-    this.load.spritesheet('boss_tetsuo_sheet', '/assets/sprites/boss_tetsuo_sheet.png', { frameWidth: 160, frameHeight: 180 });
-    this.load.spritesheet('boss_explosion_sheet', '/assets/sprites/boss_explosion_sheet.png', { frameWidth: 128, frameHeight: 128 });
-    this.load.spritesheet('hit_spark_sheet', '/assets/sprites/hit_spark_sheet.png', { frameWidth: 64, frameHeight: 64 });
-    this.load.image('hit_spark', '/assets/sprites/hit_spark.png');
-    this.load.image('powerup_pill', '/assets/sprites/powerup_pill.png');
-    this.load.image('powerup_shield', '/assets/sprites/powerup_shield.png');
-    this.load.image('powerup_weapon', '/assets/sprites/powerup_weapon.png');
-    this.load.image('powerup_sol', '/assets/sprites/powerup_sol.png');
-    this.load.image('escort_drone', '/assets/sprites/escort_drone.png');
+    this.load.spritesheet('enemy_biker_sheet', 'assets/sprites/enemy_biker_sheet.png', { frameWidth: 48, frameHeight: 64 });
+    this.load.spritesheet('enemy_interceptor_sheet', 'assets/sprites/enemy_interceptor_sheet.png', { frameWidth: 54, frameHeight: 64 });
+    this.load.spritesheet('enemy_heli_sheet', 'assets/sprites/enemy_heli_sheet.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.spritesheet('boss_clown_sheet', 'assets/sprites/boss_clown_sheet.png', { frameWidth: 144, frameHeight: 160 });
+    this.load.spritesheet('boss_tank_sheet', 'assets/sprites/boss_tank_sheet.png', { frameWidth: 150, frameHeight: 160 });
+    this.load.spritesheet('boss_tetsuo_sheet', 'assets/sprites/boss_tetsuo_sheet.png', { frameWidth: 160, frameHeight: 180 });
+    this.load.spritesheet('boss_explosion_sheet', 'assets/sprites/boss_explosion_sheet.png', { frameWidth: 128, frameHeight: 128 });
+    this.load.spritesheet('hit_spark_sheet', 'assets/sprites/hit_spark_sheet.png', { frameWidth: 64, frameHeight: 64 });
+    this.load.image('hit_spark', 'assets/sprites/hit_spark.png');
+    this.load.image('powerup_pill', 'assets/sprites/powerup_pill.png');
+    this.load.image('powerup_shield', 'assets/sprites/powerup_shield.png');
+    this.load.image('powerup_weapon', 'assets/sprites/powerup_weapon.png');
+    this.load.image('powerup_sol', 'assets/sprites/powerup_sol.png');
+    this.load.image('escort_drone', 'assets/sprites/escort_drone.png');
 
     // Ícones da Loja Cyberpunk & Badges
-    this.load.image('shop_pack_biker', '/assets/icons/shop_pack_biker.png');
-    this.load.image('shop_pack_leader', '/assets/icons/shop_pack_leader.png');
-    this.load.image('shop_pack_overlord', '/assets/icons/shop_pack_overlord.png');
-    this.load.image('shop_pack_sol', '/assets/icons/shop_pack_sol.png');
+    this.load.image('shop_pack_biker', 'assets/icons/shop_pack_biker.png');
+    this.load.image('shop_pack_leader', 'assets/icons/shop_pack_leader.png');
+    this.load.image('shop_pack_overlord', 'assets/icons/shop_pack_overlord.png');
+    this.load.image('shop_pack_sol', 'assets/icons/shop_pack_sol.png');
 
     // Ícones de Interface e HUD
-    this.load.image('icon_hud_shop', '/assets/icons/icon_hud_shop.png');
-    this.load.image('icon_hud_sol', '/assets/icons/icon_hud_sol.png');
+    this.load.image('icon_hud_shop', 'assets/icons/icon_hud_shop.png');
+    this.load.image('icon_hud_sol', 'assets/icons/icon_hud_sol.png');
   }
 
   createLoadingUI() {
