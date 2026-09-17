@@ -1,0 +1,16 @@
+{
+  "name": "neo-tokyo-shmup",
+  "version": "1.0.0",
+  "description": "Neo-Tokyo Akira-themed Roguelite Shmup with Mercado Pago Pix Shop",
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "start": "cd server && npm start",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

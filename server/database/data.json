@@ -1,0 +1,207 @@
+{
+  "players": {
+    "test_player_1": {
+      "id": "test_player_1",
+      "nickname": "Kaneda",
+      "pills": 100,
+      "solBombs": 1,
+      "unlockedBikes": [
+        "kaneda_red"
+      ],
+      "selectedBike": "kaneda_red",
+      "stats": {
+        "highScore": 0,
+        "totalKills": 0,
+        "gamesPlayed": 0
+      },
+      "createdAt": "2026-09-17T13:14:07.890Z"
+    },
+    "neo_kmw7o0gvmu5k0ces": {
+      "id": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "pills": 4100,
+      "solBombs": 4,
+      "unlockedBikes": [
+        "kaneda_red",
+        "kaneda_gold"
+      ],
+      "selectedBike": "kaneda_red",
+      "stats": {
+        "highScore": 46900,
+        "totalKills": 789,
+        "gamesPlayed": 22
+      },
+      "createdAt": "2026-09-17T13:33:50.574Z"
+    }
+  },
+  "payments": {
+    "sim_1789669713171_748": {
+      "paymentId": "sim_1789669713171_748",
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "itemKey": "pills_4000",
+      "amount": 10,
+      "title": "Pacote Neo-Tokyo Overlord - 4000 Pills + Moto Dourada",
+      "qrCode": "00020126580014br.gov.bcb.pix0136neotokyo-neo_kmw752040000530398654010.005802BR5909NEO-TOKYO6009SAO_PAULO62070503***6304ABCD",
+      "qrCodeBase64": "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",
+      "status": "approved",
+      "createdAt": "2026-09-17T18:28:33.496Z",
+      "updatedAt": "2026-09-17T18:28:37.955Z"
+    }
+  },
+  "leaderboard": [
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 46900,
+      "kills": 154,
+      "date": "2026-09-17T16:18:36.673Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 37860,
+      "kills": 109,
+      "date": "2026-09-17T18:35:57.874Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 30105,
+      "kills": 87,
+      "date": "2026-09-17T18:25:28.482Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 30100,
+      "kills": 108,
+      "date": "2026-09-17T14:39:20.808Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 14940,
+      "kills": 44,
+      "date": "2026-09-17T16:41:41.510Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 13785,
+      "kills": 42,
+      "date": "2026-09-17T17:40:32.684Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 11640,
+      "kills": 37,
+      "date": "2026-09-17T18:55:49.949Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 11520,
+      "kills": 34,
+      "date": "2026-09-17T18:27:53.052Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 11090,
+      "kills": 32,
+      "date": "2026-09-17T17:53:26.094Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 4460,
+      "kills": 14,
+      "date": "2026-09-17T16:57:30.267Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 4430,
+      "kills": 18,
+      "date": "2026-09-17T16:58:44.120Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 3985,
+      "kills": 19,
+      "date": "2026-09-17T17:41:52.954Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 2710,
+      "kills": 13,
+      "date": "2026-09-17T17:42:12.184Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 2370,
+      "kills": 13,
+      "date": "2026-09-17T18:55:11.053Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 2300,
+      "kills": 14,
+      "date": "2026-09-17T14:21:59.373Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 2250,
+      "kills": 15,
+      "date": "2026-09-17T15:52:38.220Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 1950,
+      "kills": 15,
+      "date": "2026-09-17T15:54:00.940Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 1050,
+      "kills": 3,
+      "date": "2026-09-17T15:16:57.804Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 950,
+      "kills": 5,
+      "date": "2026-09-17T14:21:38.689Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 850,
+      "kills": 7,
+      "date": "2026-09-17T13:33:50.577Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 550,
+      "kills": 4,
+      "date": "2026-09-17T14:20:00.076Z"
+    },
+    {
+      "playerId": "neo_kmw7o0gvmu5k0ces",
+      "nickname": "Kaneda",
+      "score": 350,
+      "kills": 2,
+      "date": "2026-09-17T14:46:28.949Z"
+    }
+  ]
+}
